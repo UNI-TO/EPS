@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bdb87403-1f88-4e28-b9ee-598c72cebcfb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Esami Gennaio/esame18Febbraio21.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/R-quiz/quiz-1.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Esami Gennaio/esame18Febbraio21.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Esami Gennaio/esame18Febbraio21.r" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Esami Gennaio/esameGennaio.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/epsQuiz/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rStudio/guida.r" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,17 +22,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JSX File" />
         <option value="JavaScript File" />
+        <option value="JSX File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="37nYqzjc7bnlqezy9sr3UmjXqVf" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -36,7 +42,9 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/andreiadam/Documents/università/Simulatore esami/EPS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -45,6 +53,15 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.intellij.reactbuddy.reactComponents" value="false" />
+        <entry key="com.intellij.reactbuddy.reactInspector" value="false" />
+        <entry key="com.intellij.reactbuddy.storybook" value="false" />
+      </map>
+    </option>
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Andrei\Documents\Unito\secondo anno\PRIMO SEMESTRE\Esp\Simulatore EPS\epsQuiz" />
@@ -65,6 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1767540507107</updated>
       <workItem from="1767540507166" duration="2149000" />
+      <workItem from="1767603564908" duration="4731000" />
     </task>
     <servers />
   </component>

@@ -7,6 +7,9 @@ import QuizEsameReale from './components/quiz/QuizEsameReale';
 import SimulatoreR from './components/R-quiz/quiz-1';
 import EPSExamSimulator from './components/exams/EPSExamSimulator';
 import Quiz18Feb from './components/exams/Quiz18Feb';
+import QuizGennaio2025 from './components/exams/QuizGennaio2025';
+import QuizFebbraio2025 from './components/exams/QuizFebbraio2025';
+import QuizLuglio2025 from './components/exams/QuizLuglio2025';
 import { categories as categoriesData } from './data/categories';
 
 const App = () => {
@@ -32,6 +35,12 @@ const App = () => {
                 return <EPSExamSimulator />;
             case 'Quiz18Feb':
                 return <Quiz18Feb />;
+            case 'QuizGennaio2025':
+                return <QuizGennaio2025 />;
+            case 'QuizFebbraio2025':
+                return <QuizFebbraio2025 />;
+            case 'QuizLuglio2025':
+                return <QuizLuglio2025 />;
             default:
                 return null;
         }

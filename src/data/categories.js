@@ -49,6 +49,27 @@ export const categories = [
                 topics: ['Geometrica', 'Esponenziale', 'Test t Appaiato', 'R Programming'],
                 rScript: '/r-scripts/esame18Febbraio21.r',
                 rScriptName: 'esame18Febbraio21.r'
+            },
+            {
+                id: 'esame-gennaio-2025',
+                name: 'Esame 29 Gennaio 2025 ⭐ NUOVO',
+                description: '5 domande da esame reale - Chi-quadro, Normale, Poisson, Test t',
+                component: 'QuizGennaio2025',
+                topics: ['Chi-quadro Indipendenza', 'Normale Condizionata', 'Poisson', 'Test Appaiato']
+            },
+            {
+                id: 'esame-febbraio-2025',
+                name: 'Esame 12 Febbraio 2025 ⭐ NUOVO',
+                description: '5 domande da esame reale - Normale, Poisson, Chi-quadro, Proporzioni',
+                component: 'QuizFebbraio2025',
+                topics: ['Normale', 'Poisson Condizionata', 'Bontà del Fit', 'P-value']
+            },
+            {
+                id: 'esame-luglio-2025',
+                name: 'Esame 11 Luglio 2025 ⭐ NUOVO',
+                description: '5 domande da esame reale - Probabilità classica, Esponenziale, Proporzioni',
+                component: 'QuizLuglio2025',
+                topics: ['Probabilità Classica', 'Esponenziale', 'Test Proporzioni', 'Teoria']
             }
         ]
     }

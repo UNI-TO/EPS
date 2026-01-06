@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bdb87403-1f88-4e28-b9ee-598c72cebcfb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/R-quiz/quiz-1.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Esami Gennaio/esame18Febbraio21.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Esami Gennaio/esame18Febbraio21.r" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Esami Gennaio/esameGennaio.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/epsQuiz/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rStudio/guida.r" beforeDir="false" />
-    </list>
+    <list default="true" id="bdb87403-1f88-4e28-b9ee-598c72cebcfb" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,6 +41,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>

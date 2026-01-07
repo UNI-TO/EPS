@@ -34,6 +34,41 @@ export const categories = [
                 topics: ['Analisi Dataset', 'Poisson', 'Normale', 'Probabilità Condizionata']
             },
             {
+                id: 'quiz-chi-quadro',
+                name: 'Quiz Test Chi-quadro 🆕',
+                description: '8 domande su test indipendenza, bontà del fit e applicazioni',
+                component: 'QuizChiQuadro',
+                topics: ['Test Indipendenza', 'Bontà del Fit', 'Cochran', 'Fisher']
+            },
+            {
+                id: 'quiz-distribuzioni-continue',
+                name: 'Quiz Distribuzioni Continue 🆕',
+                description: '8 domande su Normale ed Esponenziale con R',
+                component: 'QuizDistribuzioniContinue',
+                topics: ['Normale', 'Esponenziale', 'pnorm', 'qnorm', 'Standardizzazione']
+            },
+            {
+                id: 'quiz-distribuzioni-discrete',
+                name: 'Quiz Distribuzioni Discrete 🆕',
+                description: '8 domande su Poisson, Binomiale, Geometrica e Ipergeometrica',
+                component: 'QuizDistribuzioniDiscrete',
+                topics: ['Poisson', 'Binomiale', 'Geometrica', 'Ipergeometrica', 'Approssimazioni']
+            },
+            {
+                id: 'quiz-test-ipotesi',
+                name: 'Quiz Test di Ipotesi 🆕',
+                description: '8 domande su t-test, ANOVA, proporzioni ed errori Tipo I/II',
+                component: 'QuizTestIpotesi',
+                topics: ['t-test', 'ANOVA', 'Proporzioni', 'P-value', 'Errori', 'IC']
+            },
+            {
+                id: 'quiz-errori-comuni',
+                name: 'Quiz Errori Comuni e Trabocchetti 🆕⚠️',
+                description: '10 domande sui più frequenti errori: rate/mean, paired, alternative, sd/varianza, offset',
+                component: 'QuizErroriComuni',
+                topics: ['Esponenziale rate', 'paired TRUE/FALSE', 'alternative', 'pnorm sd', 'Geometrica offset', 'P-value', 'Accettare H0', 'Correlazione≠Causalità', 'Confronti multipli', 'IC vs IP']
+            },
+            {
                 id: 'simulatore-r',
                 name: 'Simulatore R Interattivo 🔬',
                 description: '15 esercizi guidati di R da esami reali con console interattiva',
@@ -66,10 +101,17 @@ export const categories = [
             },
             {
                 id: 'esame-gennaio-2025',
-                name: 'Esame 29 Gennaio 2025 ⭐ NUOVO',
+                name: 'Esame 29 Gennaio 2025 - Turno 1 ⭐',
                 description: '5 domande da esame reale - Chi-quadro, Normale, Poisson, Test t',
                 component: 'QuizGennaio2025',
                 topics: ['Chi-quadro Indipendenza', 'Normale Condizionata', 'Poisson', 'Test Appaiato']
+            },
+            {
+                id: 'esame-gennaio-2025-turno2',
+                name: 'Esame 29 Gennaio 2025 - Turno 2 🆕',
+                description: '5 domande - Fertilizzante/Test t, Esponenziale, Probabilità, Alberi, Teoria',
+                component: 'QuizGennaio2025Turno2',
+                topics: ['Test t Bilaterale', 'Esponenziale', 'Eventi', 'Correlazione', 'CDF']
             },
             {
                 id: 'esame-febbraio-2025',
@@ -80,10 +122,17 @@ export const categories = [
             },
             {
                 id: 'esame-luglio-2025',
-                name: 'Esame 11 Luglio 2025 ⭐ NUOVO',
+                name: 'Esame 11 Luglio 2025 - VN e T ⭐',
                 description: '5 domande da esame reale - Probabilità classica, Esponenziale, Proporzioni',
                 component: 'QuizLuglio2025',
                 topics: ['Probabilità Classica', 'Esponenziale', 'Test Proporzioni', 'Teoria']
+            },
+            {
+                id: 'esame-luglio-2025-turno10',
+                name: 'Esame 11 Luglio 2025 - Turno 10 (9cfu) 🆕',
+                description: '5 domande - Fito/Correlazione, Urne/Binomiale, Normale, Esponenziale, Escursioni',
+                component: 'QuizLuglio2025Turno10',
+                topics: ['Regressione', 'Binomiale', 'Prob. Condizionata', 'Riconoscimento Distrib', 'Test Proporzioni']
             }
         ]
     }

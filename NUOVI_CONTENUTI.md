@@ -36,6 +36,102 @@ Questo documento elenca tutti i nuovi contenuti generati per il simulatore EPS. 
 import QuizTeoricoAvanzato from './components/quiz/QuizTeoricoAvanzato';
 ```
 
+### **QuizChiQuadro.jsx** 🆕
+📍 Location: `./src/components/quiz/QuizChiQuadro.jsx`
+
+#### Caratteristiche:
+- **8 domande** sul test Chi-quadrato
+- Spiegazioni dettagliate con formule e codice R
+- Interfaccia con gradiente indigo-purple
+- Sistema di scoring e feedback immediato
+
+#### Argomenti Trattati:
+1. Test Indipendenza (gradi di libertà)
+2. Regola di Cochran (frequenze attese ≥ 5)
+3. Test Bontà del Fit
+4. Interpretazione residui standardizzati
+5. Scelta del test corretto
+6. Calcolo manuale χ²
+7. Frequenze attese
+8. Test esatto di Fisher (alternativa)
+
+#### Come Usare:
+```jsx
+import QuizChiQuadro from './components/quiz/QuizChiQuadro';
+```
+
+### **QuizDistribuzioniContinue.jsx** 🆕
+📍 Location: `./src/components/quiz/QuizDistribuzioniContinue.jsx`
+
+#### Caratteristiche:
+- **8 domande** su Normale ed Esponenziale
+- Codice R con pnorm, qnorm, pexp
+- Interfaccia con gradiente emerald-teal
+- Esempi pratici e applicazioni
+
+#### Argomenti Trattati:
+1. pnorm con sd vs varianza
+2. Parametro rate vs mean in Esponenziale
+3. qnorm per quantili
+4. Probabilità condizionata
+5. Applicazioni Esponenziale (memoryless)
+6. Standardizzazione Z
+7. Confronto Esponenziale-Geometrica
+8. Combinazioni lineari di Normali
+
+#### Come Usare:
+```jsx
+import QuizDistribuzioniContinue from './components/quiz/QuizDistribuzioniContinue';
+```
+
+### **QuizDistribuzioniDiscrete.jsx** 🆕
+📍 Location: `./src/components/quiz/QuizDistribuzioniDiscrete.jsx`
+
+#### Caratteristiche:
+- **8 domande** su Poisson, Binomiale, Geometrica, Ipergeometrica
+- Focus su funzioni R (dpois, pbinom, dgeom, dhyper)
+- Interfaccia con gradiente blue-indigo
+- Attenzione agli offset in R
+
+#### Argomenti Trattati:
+1. dpois vs ppois
+2. dbinom vs pbinom
+3. Offset Geometrica in R (conta fallimenti!)
+4. Somma di Poisson indipendenti
+5. dhyper e parametri
+6. Approssimazione Normale a Binomiale
+7. Approssimazione Poisson a Binomiale
+8. Scelta distribuzione corretta
+
+#### Come Usare:
+```jsx
+import QuizDistribuzioniDiscrete from './components/quiz/QuizDistribuzioniDiscrete';
+```
+
+### **QuizTestIpotesi.jsx** 🆕
+📍 Location: `./src/components/quiz/QuizTestIpotesi.jsx`
+
+#### Caratteristiche:
+- **8 domande** su test di ipotesi
+- Spiegazioni su t-test, ANOVA, proporzioni
+- Interfaccia con gradiente pink-rose
+- Focus su interpretazione risultati
+
+#### Argomenti Trattati:
+1. paired vs unpaired t-test
+2. Parametro alternative (greater/less/two.sided)
+3. Interpretazione p-value
+4. binom.test vs prop.test
+5. ANOVA vs confronti multipli
+6. Errori Tipo I e Tipo II (α e β)
+7. Assunzioni t-test
+8. Intervalli confidenza vs test
+
+#### Come Usare:
+```jsx
+import QuizTestIpotesi from './components/quiz/QuizTestIpotesi';
+```
+
 ---
 
 ## 2. Quiz Interattivi da Immagini di Esami
@@ -139,6 +235,68 @@ source("./public/r-scripts/generatore-dataset.r")
 - Codice R passo-passo con commenti
 - Interpretazioni statistiche
 - Visualizzazioni grafiche
+
+### **esercizi-dataset-esistenti.r** 🆕
+📍 Location: `./public/r-scripts/esercizi-dataset-esistenti.r`
+
+#### Contenuto:
+- **6 esercizi guidati** per dataset esistenti
+- Analisi complete con statistiche descrittive e inferenziali
+- Oltre 900 righe di codice commentato
+- Visualizzazioni avanzate
+
+#### Esercizi:
+
+**Esercizio 1: ATLETI**
+- Correlazione e Regressione lineare
+- Matrice scatter plot
+- Identificazione outlier (Tukey)
+- Diagnostica modelli (4 grafici)
+- Predizioni con IC
+
+**Esercizio 2: BOSCO**
+- Analisi descrittiva avanzata
+- Statistiche per gruppi
+- Test normalità (Shapiro-Wilk)
+- Outlier detection (Z-score)
+- Visualizzazioni con density overlay
+
+**Esercizio 3: FERTILIZZANTE**
+- ANOVA completa
+- Verifica assunzioni (Levene, Shapiro)
+- Test post-hoc Tukey HSD
+- Effect size (η²)
+- Grafici diagnostici
+
+**Esercizio 4: TRAZIONE**
+- Test t (un campione, due campioni)
+- Intervalli di confidenza (90%, 95%, 99%)
+- Test unilaterali (greater/less)
+- Confronto tra gruppi
+- Visualizzazioni
+
+**Esercizio 5: COMPRESSIONE**
+- Analisi esplorativa completa
+- Q-Q plot e test normalità
+- Analisi per variabile
+- Confronti tra gruppi
+- Boxplot multipli
+
+**Esercizio 6: ALBERI**
+- Regressione multipla
+- Scatter plot matrix con correlazioni
+- Diagnostica avanzata
+- Cook's distance e leverage
+- Predizioni (puntuale, IC, IP)
+
+#### Come Usare:
+```r
+# Esegui in R/RStudio
+source("./public/r-scripts/esercizi-dataset-esistenti.r")
+
+# Oppure esegui singoli esercizi
+# (copia-incolla le sezioni specifiche)
+```
 
 #### Competenze Praticate:
 ✅ Statistiche descrittive (mean, median, sd, IQR, quantile)
@@ -309,9 +467,13 @@ read.csv("file.csv")
 - Aggiunti casi in switch per routing
 
 **2. src/data/categories.js**
-- Aggiunte 2 nuove voci:
+- Aggiunte 6 nuove voci nella sezione "Quiz di Pratica":
   - "Quiz Teorico Avanzato 🆕"
   - "Esercizi da Esami Interattivi 🆕"
+  - "Quiz Test Chi-quadro 🆕"
+  - "Quiz Distribuzioni Continue 🆕"
+  - "Quiz Distribuzioni Discrete 🆕"
+  - "Quiz Test di Ipotesi 🆕"
 
 ### Come Accedere ai Nuovi Contenuti:
 
@@ -345,15 +507,16 @@ read.csv("file.csv")
 ## Statistiche Nuovi Contenuti
 
 ### Quiz Web:
-- **2 nuovi componenti** React
-- **16 nuove domande teoriche** (12 + 4 esercizi)
-- **Oltre 50 concetti** spiegati
+- **6 nuovi componenti** React (QuizTeoricoAvanzato, QuizDalleImmagini, QuizChiQuadro, QuizDistribuzioniContinue, QuizDistribuzioniDiscrete, QuizTestIpotesi)
+- **48 nuove domande teoriche** (12 + 4 + 8 + 8 + 8 + 8)
+- **Oltre 150 concetti** spiegati con R
+- Integrazione completa in App.jsx e categories.js
 
 ### Script R:
-- **3 nuovi file** R
-- **7 dataset** generati
-- **7 esercizi guidati** completi
-- **Oltre 500 righe** di codice commentato
+- **4 nuovi file** R (generatore-dataset, esercizi-nuovi-dataset, esercizi-dataset-esistenti, guida-supplementare)
+- **7 dataset** generati (studenti, vendite, temperatura, pazienti, tempi_risposta, produzione, persone)
+- **13 esercizi guidati** completi (7 nuovi + 6 esistenti)
+- **Oltre 1500 righe** di codice commentato
 
 ### Documentazione:
 - **1 guida teorica** Markdown (6000+ parole)

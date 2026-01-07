@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="bdb87403-1f88-4e28-b9ee-598c72cebcfb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NUOVI_CONTENUTI.md" beforeDir="false" afterPath="$PROJECT_DIR$/NUOVI_CONTENUTI.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QUICK_START.md" beforeDir="false" afterPath="$PROJECT_DIR$/QUICK_START.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO.md" beforeDir="false" afterPath="$PROJECT_DIR$/TODO.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data/categories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/categories.js" afterDir="false" />
     </list>
@@ -59,6 +62,9 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Andrei\Documents\Unito\secondo anno\PRIMO SEMESTRE\Esp\Simulatore EPS\input" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Andrei\Documents\Unito\secondo anno\PRIMO SEMESTRE\Esp\Simulatore EPS\epsQuiz" />
     </key>
@@ -79,7 +85,7 @@
       <updated>1767540507107</updated>
       <workItem from="1767540507166" duration="2149000" />
       <workItem from="1767603564908" duration="4731000" />
-      <workItem from="1767775711845" duration="6693000" />
+      <workItem from="1767775711845" duration="13225000" />
     </task>
     <servers />
   </component>

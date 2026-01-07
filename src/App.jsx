@@ -6,12 +6,19 @@ import EPSQuizApp from './components/quiz/EPSQuizApp';
 import QuizEsameReale from './components/quiz/QuizEsameReale';
 import QuizTeoricoAvanzato from './components/quiz/QuizTeoricoAvanzato';
 import QuizDalleImmagini from './components/quiz/QuizDalleImmagini';
+import QuizChiQuadro from './components/quiz/QuizChiQuadro';
+import QuizDistribuzioniContinue from './components/quiz/QuizDistribuzioniContinue';
+import QuizDistribuzioniDiscrete from './components/quiz/QuizDistribuzioniDiscrete';
+import QuizTestIpotesi from './components/quiz/QuizTestIpotesi';
+import QuizErroriComuni from './components/quiz/QuizErroriComuni';
 import SimulatoreR from './components/R-quiz/quiz-1';
 import EPSExamSimulator from './components/exams/EPSExamSimulator';
 import Quiz18Feb from './components/exams/Quiz18Feb';
 import QuizGennaio2025 from './components/exams/QuizGennaio2025';
+import QuizGennaio2025Turno2 from './components/exams/QuizGennaio2025Turno2';
 import QuizFebbraio2025 from './components/exams/QuizFebbraio2025';
 import QuizLuglio2025 from './components/exams/QuizLuglio2025';
+import QuizLuglio2025Turno10 from './components/exams/QuizLuglio2025Turno10';
 import { categories as categoriesData } from './data/categories';
 
 const App = () => {
@@ -35,6 +42,16 @@ const App = () => {
                 return <QuizTeoricoAvanzato />;
             case 'QuizDalleImmagini':
                 return <QuizDalleImmagini />;
+            case 'QuizChiQuadro':
+                return <QuizChiQuadro />;
+            case 'QuizDistribuzioniContinue':
+                return <QuizDistribuzioniContinue />;
+            case 'QuizDistribuzioniDiscrete':
+                return <QuizDistribuzioniDiscrete />;
+            case 'QuizTestIpotesi':
+                return <QuizTestIpotesi />;
+            case 'QuizErroriComuni':
+                return <QuizErroriComuni />;
             case 'SimulatoreR':
                 return <SimulatoreR />;
             case 'EPSExamSimulator':
@@ -43,10 +60,14 @@ const App = () => {
                 return <Quiz18Feb />;
             case 'QuizGennaio2025':
                 return <QuizGennaio2025 />;
+            case 'QuizGennaio2025Turno2':
+                return <QuizGennaio2025Turno2 />;
             case 'QuizFebbraio2025':
                 return <QuizFebbraio2025 />;
             case 'QuizLuglio2025':
                 return <QuizLuglio2025 />;
+            case 'QuizLuglio2025Turno10':
+                return <QuizLuglio2025Turno10 />;
             default:
                 return null;
         }

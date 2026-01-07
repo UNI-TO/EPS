@@ -18,77 +18,85 @@ Lista completa dei task per espandere il simulatore con nuovi quiz ed esercizi b
 
 ## 🎯 Quiz Tematici
 
-### Priorità Alta
-- [ ] **Quiz Test Chi-quadro**
+### Priorità Alta ✅ COMPLETATO!
+- [x] **Quiz Test Chi-quadro**
   - Test per l'indipendenza (tabelle di contingenza)
   - Test per bontà del fit
   - Regola di Cochran
   - Interpretazione risultati
-  - File: `src/components/quiz/QuizChiQuadro.jsx`
+  - File: `src/components/quiz/QuizChiQuadro.jsx` ✅
 
-- [ ] **Quiz Distribuzioni Continue**
+- [x] **Quiz Distribuzioni Continue**
   - Normale (pnorm, qnorm, dnorm)
   - Esponenziale (pexp, proprietà memoryless)
   - Probabilità condizionate
   - Calcoli con media e varianza
-  - File: `src/components/quiz/QuizDistribuzioniContinue.jsx`
+  - File: `src/components/quiz/QuizDistribuzioniContinue.jsx` ✅
 
-- [ ] **Quiz Distribuzioni Discrete**
+- [x] **Quiz Distribuzioni Discrete**
   - Poisson (dpois, ppois)
   - Binomiale (dbinom, pbinom, qbinom)
   - Geometrica (dgeom, pgeom)
   - Ipergeometrica (dhyper)
   - Probabilità condizionate
-  - File: `src/components/quiz/QuizDistribuzioniDiscrete.jsx`
+  - File: `src/components/quiz/QuizDistribuzioniDiscrete.jsx` ✅
 
-- [ ] **Quiz Test di Ipotesi**
+- [x] **Quiz Test di Ipotesi**
   - t-test (paired vs unpaired)
   - Test per proporzioni (binom.test)
   - Interpretazione p-value
   - Scelta del test corretto
   - Alternative (two.sided, less, greater)
-  - File: `src/components/quiz/QuizTestIpotesi.jsx`
+  - File: `src/components/quiz/QuizTestIpotesi.jsx` ✅
 
 ---
 
-## 💻 Esercizi R con Dataset RData
+## 💻 Esercizi R con Dataset RData ✅ COMPLETATO!
 
 ### Dataset disponibili in `input/rData/`:
 
-- [ ] **atleti.RData**
+✅ **Tutti gli esercizi creati in un unico file R completo:**
+- File: `public/r-scripts/esercizi-dataset-esistenti.r`
+- 6 esercizi completi con oltre 900 righe di codice commentato
+
+- [x] **atleti.RData**
   - Correlazione tra variabili (cor, cor.test)
   - Regressione lineare (lm)
   - Interpretazione R²
   - Residui e diagnostica
-  - File: `src/components/R-quiz/EserciziAtleti.jsx`
+  - ✅ Esercizio 1 nel file R
 
-- [ ] **bosco.RData**
+- [x] **bosco.RData**
   - Analisi descrittiva completa
   - Visualizzazioni (boxplot, histogram, scatterplot)
-  - Identificazione outlier (metodo IQR)
+  - Identificazione outlier (metodo IQR e Z-score)
   - Statistiche per gruppo
-  - File: `src/components/R-quiz/EserciziBosco.jsx`
+  - ✅ Esercizio 2 nel file R
 
-- [ ] **fertilizzante.RData**
+- [x] **fertilizzante.RData**
   - Test ANOVA (aov)
   - Confronti multipli (TukeyHSD)
-  - Assunzioni ANOVA
-  - Interpretazione risultati
-  - File: `src/components/R-quiz/EserciziFertilizzante.jsx`
+  - Assunzioni ANOVA (Levene, Shapiro)
+  - Interpretazione risultati ed effect size
+  - ✅ Esercizio 3 nel file R
 
-- [ ] **trazione.RData**
-  - Test ipotesi su medie
-  - Intervalli di confidenza
-  - Test su varianze
-  - File: `src/components/R-quiz/EserciziTrazione.jsx`
+- [x] **trazione.RData**
+  - Test ipotesi su medie (t-test)
+  - Intervalli di confidenza (90%, 95%, 99%)
+  - Test unilaterali (greater/less)
+  - ✅ Esercizio 4 nel file R
 
-- [ ] **compressione.RData**
-  - Analisi e test specifici
-  - File: `src/components/R-quiz/EserciziCompressione.jsx`
+- [x] **compressione.RData**
+  - Analisi esplorativa completa
+  - Test normalità e Q-Q plot
+  - Analisi per variabile e gruppo
+  - ✅ Esercizio 5 nel file R
 
-- [ ] **alberi.RData**
-  - Analisi e visualizzazioni
-  - File: `src/components/R-quiz/EserciziAlberi.jsx`
+- [x] **alberi.RData**
+  - Regressione multipla
+  - Scatter plot matrix con correlazioni
+  - Diagnostica avanzata (Cook's D, leverage)
+  - ✅ Esercizio 6 nel file R
 
 ---
 
@@ -96,12 +104,19 @@ Lista completa dei task per espandere il simulatore con nuovi quiz ed esercizi b
 
 ### PDF disponibili in `input/`:
 
-- [ ] **Esame 29 Gennaio 2025 - Turno 2**
+- [x] **Esame 29 Gennaio 2025 - Turno 2** ✅
   - Leggere: `input/EPS 29 gen 25 - turno 2_ Revisione tentativo.pdf`
   - Estrarre domande e soluzioni
-  - File: `src/components/exams/QuizGennaio2025Turno2.jsx`
+  - File: `src/components/exams/QuizGennaio2025Turno2.jsx` ✅
+  - 5 domande: Fertilizzante/Test t, Esponenziale, Probabilità Eventi, Alberi/Correlazione, Teoria CDF
 
-- [ ] **Esame 29 Gennaio 2025 - Turno 4**
+- [x] **Esame 11 Luglio 2025 - Turno 10** ✅
+  - Leggere: `input/https_esami_i_learn_unito_itmodquizreview_phpattempt=670337&cmid=43357.pdf`
+  - Estrarre domande e soluzioni
+  - File: `src/components/exams/QuizLuglio2025Turno10.jsx` ✅
+  - 5 domande: Fito/Regressione, Urne/Binomiale, Normale Condizionata, Esponenziale Teoria, Escursioni/Proporzioni
+
+- [ ] **Esame 29 Gennaio 2025 - Turno 4** 🎯 PROSSIMO
   - Leggere: `input/EPS 29 gen 25 - turno 4_ Revisione tentativo.PDF`
   - Estrarre domande e soluzioni
   - File: `src/components/exams/QuizGennaio2025Turno4.jsx`
@@ -147,14 +162,15 @@ Lista completa dei task per espandere il simulatore con nuovi quiz ed esercizi b
   - Parametro vs Statistica
   - File: `src/components/quiz/QuizTeoriaAvanzata.jsx`
 
-- [ ] **Quiz Errori Comuni e Trabocchetti**
+- [x] **Quiz Errori Comuni e Trabocchetti** ✅
   - Confusione rate vs media in Esponenziale
   - paired=TRUE vs FALSE
   - alternative="less" vs "greater"
   - Interpretazione p-value
   - Quando usare quale test
   - "Accettare H0" vs "Non rifiutare H0"
-  - File: `src/components/quiz/QuizErroriComuni.jsx`
+  - File: `src/components/quiz/QuizErroriComuni.jsx` ✅
+  - 10 domande complete con spiegazioni approfondite
 
 ### Priorità Media
 
@@ -204,18 +220,40 @@ Lista completa dei task per espandere il simulatore con nuovi quiz ed esercizi b
 ## 📊 Statistiche Progetto
 
 ### Contenuti Attuali
-- ✅ **3 Quiz di Pratica** (33 domande)
-- ✅ **5 Simulatori d'Esame** (3 vecchi + 3 nuovi)
-- ✅ **1 Simulatore R** (15 esercizi)
+- ✅ **10 Quiz di Pratica** (91 domande totali)
+  - Quiz EPS Generale (10 domande)
+  - Quiz da Esami Reali (10 domande)
+  - Quiz Teorico Avanzato (12 domande)
+  - Esercizi da Esami Interattivi (4 esercizi)
+  - 🆕 Quiz Test Chi-quadro (8 domande)
+  - 🆕 Quiz Distribuzioni Continue (8 domande)
+  - 🆕 Quiz Distribuzioni Discrete (8 domande)
+  - 🆕 Quiz Test di Ipotesi (8 domande)
+  - 🆕 Quiz Errori Comuni (10 domande)
+  - Simulatore R (15 esercizi)
+- ✅ **7 Simulatori d'Esame** (25 domande totali)
+  - Simulazione Esame Completo
+  - Esame 18 Febbraio 2021
+  - Esame 29 Gennaio 2025 - Turno 1
+  - 🆕 Esame 29 Gennaio 2025 - Turno 2 (5 domande)
+  - Esame 12 Febbraio 2025
+  - Esame 11 Luglio 2025 - VN e T
+  - 🆕 Esame 11 Luglio 2025 - Turno 10 (5 domande)
+- ✅ **13 Esercizi R Guidati** (7 nuovi dataset + 6 dataset esistenti)
 
-### Contenuti Pianificati
-- 🎯 **4 Quiz Tematici** (40-50 domande)
-- 💻 **6 Esercizi R con Dataset** (30-40 esercizi)
-- 📚 **4 Quiz da Esami Aggiuntivi** (20 domande)
-- 📝 **2 Quiz da Script R** (15 domande)
-- 🎓 **3 Contenuti Didattici** (30 domande + flashcard)
+### Contenuti Pianificati (Rimanenti)
+- 📚 **3 Quiz da Esami Aggiuntivi** (~15 domande)
+  - Turno 4 Gennaio 2025
+  - Luglio 2024
+  - Giugno 2024
+- 📝 **2 Quiz da Script R** (~15 domande)
+  - appello-gennaio-2021.R
+  - appello-febbraio.R
+- 🎓 **1 Contenuto Didattico** (~12 domande + flashcard)
+  - Quiz Teoria Avanzata
 
-**Totale pianificato: ~150 nuove domande/esercizi**
+**Totale completato questa sessione: 52 nuove domande + 6 esercizi R completi**
+**Totale ancora da fare: ~42 domande/esercizi**
 
 ---
 
@@ -262,5 +300,10 @@ Lista completa dei task per espandere il simulatore con nuovi quiz ed esercizi b
 
 ---
 
-**Ultima modifica:** 6 Gennaio 2026
-**Versione:** 1.0
+**Ultima modifica:** 7 Gennaio 2026
+**Versione:** 1.1 - Completati Quiz Errori Comuni + 2 Esami 2025
+
+
+//TODO :  🎯 Esame 29 Gennaio 2025 - Turno 4
+- File PDF: input/EPS 29 gen 25 - turno 4_ Revisione tentativo.PDF
+- Da creare: src/components/exams/QuizGennaio2025Turno4.jsx

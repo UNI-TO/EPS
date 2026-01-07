@@ -23,6 +23,26 @@ Nella homepage, sezione "Quiz di Pratica", troverai:
 - Codice R step-by-step
 - Dataset: pomodori.RData, Poisson, Normale, Probabilità
 
+#### 🆕 Quiz Test Chi-quadro
+- 8 domande su test indipendenza, bontà del fit
+- Regola di Cochran, residui standardizzati
+- Codice R completo (chisq.test, fisher.test)
+
+#### 🆕 Quiz Distribuzioni Continue
+- 8 domande su Normale ed Esponenziale
+- Funzioni R: pnorm, qnorm, pexp, dexp
+- Standardizzazione e combinazioni lineari
+
+#### 🆕 Quiz Distribuzioni Discrete
+- 8 domande su Poisson, Binomiale, Geometrica, Ipergeometrica
+- Focus su dpois, pbinom, dgeom, dhyper
+- Approssimazioni e offset in R
+
+#### 🆕 Quiz Test di Ipotesi
+- 8 domande su t-test, ANOVA, proporzioni
+- Errori Tipo I/II, p-value, intervalli confidenza
+- paired vs unpaired, alternative parameter
+
 ### 3. Genera Nuovi Dataset R
 
 Apri R/RStudio ed esegui:
@@ -44,7 +64,7 @@ source("./public/r-scripts/generatore-dataset.r")
 ### 4. Pratica con gli Esercizi
 
 ```r
-# 7 esercizi guidati completi
+# 7 esercizi guidati con nuovi dataset
 source("./public/r-scripts/esercizi-nuovi-dataset.r")
 
 # Esercizio 1: STUDENTI - Test t, Correlazione, Regressione
@@ -54,6 +74,16 @@ source("./public/r-scripts/esercizi-nuovi-dataset.r")
 # Esercizio 5: TEMPI RISPOSTA - Normalità, Trasformazioni
 # Esercizio 6: PRODUZIONE - Regressione, Correlazione
 # Esercizio 7: PERSONE - Regressione, Diagnostica
+
+# 🆕 6 esercizi guidati con dataset esistenti
+source("./public/r-scripts/esercizi-dataset-esistenti.r")
+
+# Esercizio 1: ATLETI - Correlazione, Regressione, Outlier
+# Esercizio 2: BOSCO - Analisi Descrittiva, Normalità
+# Esercizio 3: FERTILIZZANTE - ANOVA, Tukey HSD
+# Esercizio 4: TRAZIONE - Test t, Intervalli Confidenza
+# Esercizio 5: COMPRESSIONE - Analisi Completa
+# Esercizio 6: ALBERI - Regressione Multipla, Diagnostica
 ```
 
 ### 5. Studia la Teoria
@@ -98,6 +128,10 @@ Contenuti:
 |------|---------|------------|------------------|
 | Quiz Teorico Avanzato | 12 | ⭐⭐⭐ | Teoria, Distribuzioni, TLC, Chi² |
 | Esercizi da Esami | 4 | ⭐⭐⭐⭐ | Dataset R, Poisson, Normale, Condizionata |
+| Quiz Test Chi-quadro 🆕 | 8 | ⭐⭐⭐ | Indipendenza, Bontà Fit, Cochran, Fisher |
+| Quiz Distribuzioni Continue 🆕 | 8 | ⭐⭐⭐ | Normale, Esponenziale, pnorm, qnorm |
+| Quiz Distribuzioni Discrete 🆕 | 8 | ⭐⭐⭐ | Poisson, Binomiale, Geometrica, Iper |
+| Quiz Test di Ipotesi 🆕 | 8 | ⭐⭐⭐⭐ | t-test, ANOVA, Proporzioni, Errori |
 
 ### Dataset R (.RData)
 

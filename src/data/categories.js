@@ -20,6 +20,20 @@ export const categories = [
                 topics: ['Esponenziale Avanzato', 'Test Ipotesi', 'Probabilità Condizionata', 'Sistemi']
             },
             {
+                id: 'quiz-teorico-avanzato',
+                name: 'Quiz Teorico Avanzato 🆕',
+                description: '12 domande approfondite su teoria, distribuzioni e statistica',
+                component: 'QuizTeoricoAvanzato',
+                topics: ['Teoria Distribuzioni', 'Test Ipotesi', 'TLC', 'Correlazione', 'Chi-quadrato']
+            },
+            {
+                id: 'quiz-dalle-immagini',
+                name: 'Esercizi da Esami Interattivi 🆕',
+                description: '4 esercizi completi con codice R e spiegazioni dettagliate',
+                component: 'QuizDalleImmagini',
+                topics: ['Analisi Dataset', 'Poisson', 'Normale', 'Probabilità Condizionata']
+            },
+            {
                 id: 'simulatore-r',
                 name: 'Simulatore R Interattivo 🔬',
                 description: '15 esercizi guidati di R da esami reali con console interattiva',

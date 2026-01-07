@@ -4,6 +4,8 @@ import HomePage from './components/layout/HomePage';
 import Header from './components/layout/Header';
 import EPSQuizApp from './components/quiz/EPSQuizApp';
 import QuizEsameReale from './components/quiz/QuizEsameReale';
+import QuizTeoricoAvanzato from './components/quiz/QuizTeoricoAvanzato';
+import QuizDalleImmagini from './components/quiz/QuizDalleImmagini';
 import SimulatoreR from './components/R-quiz/quiz-1';
 import EPSExamSimulator from './components/exams/EPSExamSimulator';
 import Quiz18Feb from './components/exams/Quiz18Feb';
@@ -29,6 +31,10 @@ const App = () => {
                 return <EPSQuizApp />;
             case 'QuizEsameReale':
                 return <QuizEsameReale />;
+            case 'QuizTeoricoAvanzato':
+                return <QuizTeoricoAvanzato />;
+            case 'QuizDalleImmagini':
+                return <QuizDalleImmagini />;
             case 'SimulatoreR':
                 return <SimulatoreR />;
             case 'EPSExamSimulator':

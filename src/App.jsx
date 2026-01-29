@@ -22,6 +22,8 @@ import QuizLuglio2025Turno10 from './components/exams/QuizLuglio2025Turno10';
 import QuizGennaio2025Turno4 from './components/exams/QuizGennaio2025Turno4';
 import QuizLuglio2024 from './components/exams/QuizLuglio2024';
 import QuizGiugno2024 from './components/exams/QuizGiugno2024';
+import QuizGennaio2026Turno1 from './components/exams/QuizGennaio2026Turno1';
+import QuizGennaio2026Turno2 from './components/exams/QuizGennaio2026Turno2';
 import QuizScriptGennaio2021 from './components/quiz/QuizScriptGennaio2021';
 import QuizScriptFebbraio from './components/quiz/QuizScriptFebbraio';
 import { categories as categoriesData } from './data/categories';
@@ -79,6 +81,10 @@ const App = () => {
                 return <QuizLuglio2024 />;
             case 'QuizGiugno2024':
                 return <QuizGiugno2024 />;
+            case 'QuizGennaio2026Turno1':
+                return <QuizGennaio2026Turno1 />;
+            case 'QuizGennaio2026Turno2':
+                return <QuizGennaio2026Turno2 />;
             case 'QuizScriptGennaio2021':
                 return <QuizScriptGennaio2021 />;
             case 'QuizScriptFebbraio':

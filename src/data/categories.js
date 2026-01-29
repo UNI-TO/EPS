@@ -168,6 +168,20 @@ export const categories = [
                 description: '4 domande - Compressione/Test t Appaiato, Urne/Binomiale, Teoria, Esponenziale',
                 component: 'QuizGiugno2024',
                 topics: ['Test t Appaiato', 'Somma VA', 'Teoria Binomiale', 'Esponenziale Condizionata']
+            },
+            {
+                id: 'esame-gennaio-2026-turno1',
+                name: 'Esame 16 Gennaio 2026 - Turno 1 🆕⭐',
+                description: '5 domande - attivita/Chi-quadro, Normale VA indipendenti, Teoria, streaming/Test t, Binomiale',
+                component: 'QuizGennaio2026Turno1',
+                topics: ['Chi-quadro Bontà Fit', 'Normale i.i.d.', 'Test Ipotesi', 'Test t Indipendenti', 'Binomiale']
+            },
+            {
+                id: 'esame-gennaio-2026-turno2',
+                name: 'Esame 16 Gennaio 2026 - Turno 2 🆕⭐',
+                description: '5 domande - Moneta/Probabilità, Teoria Varianza, allenamento/Regressione, Esponenziale, consumo/Proporzioni',
+                component: 'QuizGennaio2026Turno2',
+                topics: ['Probabilità Classica', 'Teoria Varianza', 'Regressione Lineare', 'Esponenziale Memoryless', 'Test Proporzioni']
             }
         ]
     }

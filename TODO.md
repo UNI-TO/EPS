@@ -134,6 +134,22 @@ Lista completa dei task per espandere il simulatore con nuovi quiz ed esercizi b
   - File: `src/components/exams/QuizGiugno2024.jsx` ✅
   - 4 domande: Compressione/Test t Appaiato, Urne/Binomiale Somma VA, Teoria Binomiale, Esponenziale Condizionata
 
+- [x] **Esame 16 Gennaio 2026 - Turno 1** 🆕⭐
+  - Leggere: `input/EPS 16 gen 26 Turno 1 (9 CFU)_ Revisione tentativo _ Esami.pdf`
+  - Estrarre domande e soluzioni
+  - File: `src/components/exams/QuizGennaio2026Turno1.jsx` ✅
+  - 5 domande: attivita/Chi-quadro Bontà Fit, Normale VA indipendenti, Teoria Test Ipotesi, streaming/Test t Indipendenti, Binomiale
+  - 🆕 Esercizi R: `public/r-scripts/esercizi-esami-gennaio-2026.r`
+  - Dataset: attivita.RData, streaming.RData
+
+- [x] **Esame 16 Gennaio 2026 - Turno 2** 🆕⭐
+  - Leggere: `input/EPS 16 gen 26 Turno 2 (9 CFU)_ Attempt review _ Esami.pdf`
+  - Estrarre domande e soluzioni
+  - File: `src/components/exams/QuizGennaio2026Turno2.jsx` ✅
+  - 5 domande: Moneta/Probabilità Classica, Teoria Varianza, allenamento/Regressione Lineare, Esponenziale Memoryless, consumo/Test Proporzioni
+  - 🆕 Esercizi R: `public/r-scripts/esercizi-esami-gennaio-2026.r`
+  - Dataset: allenamento.RData, consumo.RData
+
 ---
 
 ## 📝 Quiz da Script R ✅ COMPLETATI!
@@ -237,7 +253,7 @@ Lista completa dei task per espandere il simulatore con nuovi quiz ed esercizi b
   - Simulatore R (15 esercizi)
   - 🆕 Quiz Script R Gennaio 2021 (6 esercizi, 17 domande)
   - 🆕 Quiz Script R Febbraio (4 esercizi, 16 domande)
-- ✅ **10 Simulatori d'Esame** (45 domande totali)
+- ✅ **12 Simulatori d'Esame** (55 domande totali)
   - Simulazione Esame Completo
   - Esame 18 Febbraio 2021
   - Esame 29 Gennaio 2025 - Turno 1
@@ -248,7 +264,9 @@ Lista completa dei task per espandere il simulatore con nuovi quiz ed esercizi b
   - 🆕 Esame 11 Luglio 2025 - Turno 10 (5 domande)
   - 🆕 Esame 12 Luglio 2024 - Turno 1 (4 domande)
   - 🆕 Esame 20 Giugno 2024 - Turno 1 (4 domande)
-- ✅ **13 Esercizi R Guidati** (7 nuovi dataset + 6 dataset esistenti)
+  - 🆕⭐ Esame 16 Gennaio 2026 - Turno 1 (5 domande)
+  - 🆕⭐ Esame 16 Gennaio 2026 - Turno 2 (5 domande)
+- ✅ **17+ Esercizi R Guidati** (11+ dataset: 4 nuovi gen 2026 + 7 precedenti)
 
 ### Contenuti Pianificati (Rimanenti)
 - 🎓 **1 Contenuto Didattico OPZIONALE** (~12 domande + flashcard)
@@ -302,10 +320,12 @@ Lista completa dei task per espandere il simulatore con nuovi quiz ed esercizi b
 
 ---
 
-**Ultima modifica:** 8 Gennaio 2026
-**Versione:** 2.0 - PROGETTO COMPLETO! ✅
-- Tutti gli esami reali PDF completati (3 nuovi)
+**Ultima modifica:** 29 Gennaio 2026
+**Versione:** 2.1 - ESAMI GENNAIO 2026 AGGIUNTI! ✅
+- Tutti gli esami reali PDF completati (5 nuovi totali)
+- 🆕 Esame 16 Gennaio 2026 - Turno 1 (5 domande)
+- 🆕 Esame 16 Gennaio 2026 - Turno 2 (5 domande)
+- 🆕 Esercizi R per 4 nuovi dataset (allenamento, attivita, consumo, streaming)
 - Tutti i quiz da script R completati (2 nuovi)
-- 105 nuove domande totali in questa sessione
-- 12 quiz di pratica + 10 simulatori esame + 13 esercizi R = 153 domande totali!
+- 12 quiz di pratica + 12 simulatori esame + 13+ esercizi R = 163+ domande totali!
 

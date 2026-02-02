@@ -26,6 +26,7 @@ import QuizGennaio2026Turno1 from './components/exams/QuizGennaio2026Turno1';
 import QuizGennaio2026Turno2 from './components/exams/QuizGennaio2026Turno2';
 import QuizScriptGennaio2021 from './components/quiz/QuizScriptGennaio2021';
 import QuizScriptFebbraio from './components/quiz/QuizScriptFebbraio';
+import StudyMaterials from './components/study/StudyMaterials';
 import { categories as categoriesData } from './data/categories';
 
 const App = () => {
@@ -35,6 +36,8 @@ const App = () => {
     const categories = categoriesData.map(cat => ({
         ...cat,
         icon: cat.id === 'quiz'
+            ? <BookOpen className="w-8 h-8" />
+            : cat.id === 'materiali'
             ? <BookOpen className="w-8 h-8" />
             : <GraduationCap className="w-8 h-8" />
     }));
@@ -89,6 +92,8 @@ const App = () => {
                 return <QuizScriptGennaio2021 />;
             case 'QuizScriptFebbraio':
                 return <QuizScriptFebbraio />;
+            case 'StudyMaterials':
+                return <StudyMaterials />;
             default:
                 return null;
         }

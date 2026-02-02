@@ -745,7 +745,7 @@ pexp(b, rate) - pexp(a, rate)
         <ul className="space-y-2 text-gray-700">
           <li><strong>Test t paired:</strong> Usa paired=TRUE quando le stesse unità sono misurate 2 volte (PRIMA/DOPO)</li>
           <li><strong>Alternative "greater":</strong> Per testare se PRIMA > DOPO (diminuzione)</li>
-          <li><strong>Interpretazione p-value:</strong> p < α → Rifiuto H₀, supporto H₁</li>
+          <li><strong>Interpretazione p-value:</strong> p &lt; α → Rifiuto H₀, supporto H₁</li>
           <li><strong>Probabilità eventi:</strong> P(n risultati uguali moneta) = 2 × (1/2)ⁿ</li>
           <li><strong>t di Student:</strong> Continua, simmetrica, immagine R, code PESANTI</li>
           <li><strong>Esponenziale condizionata:</strong> P(A|B) = P(A∩B)/P(B), NON sempre memoryless!</li>

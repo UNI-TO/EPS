@@ -184,5 +184,20 @@ export const categories = [
                 topics: ['Probabilità Classica', 'Teoria Varianza', 'Regressione Lineare', 'Esponenziale Memoryless', 'Test Proporzioni']
             }
         ]
+    },
+    {
+        id: 'materiali',
+        title: 'Materiali di Studio',
+        description: 'Riassunti di teoria, formule e comandi R per ripassare',
+        color: 'bg-gradient-to-br from-purple-400 to-indigo-600',
+        items: [
+            {
+                id: 'study-materials',
+                name: 'Materiali di Studio Completi',
+                description: 'Teoria, formule e comandi R organizzati per argomento',
+                component: 'StudyMaterials',
+                topics: ['Probabilità', 'VA Discrete', 'VA Continue', 'Statistica', 'IC', 'Test Ipotesi', 'Comandi R']
+            }
+        ]
     }
 ];

@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bdb87403-1f88-4e28-b9ee-598c72cebcfb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/input/EPS 16 gen 26 Turno 1 (9 CFU)_ Revisione tentativo _ Esami.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/EPS 16 gen 26 Turno 2 (9 CFU)_ Attempt review _ Esami.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/rData/allenamento.RData" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/rData/attivita.RData" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/rData/consumo.RData" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/rData/streaming.RData" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TODO.md" beforeDir="false" afterPath="$PROJECT_DIR$/TODO.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/exams/QuizGennaio2025Turno4.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/exams/QuizGennaio2025Turno4.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data/categories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/categories.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +87,8 @@
       <workItem from="1767603564908" duration="4731000" />
       <workItem from="1767775711845" duration="13225000" />
       <workItem from="1769522788692" duration="598000" />
-      <workItem from="1769550044587" duration="5800000" />
+      <workItem from="1769550044587" duration="6631000" />
+      <workItem from="1769727403744" duration="4429000" />
     </task>
     <servers />
   </component>

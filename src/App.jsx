@@ -27,6 +27,7 @@ import QuizGennaio2026Turno2 from './components/exams/QuizGennaio2026Turno2';
 import QuizScriptGennaio2021 from './components/quiz/QuizScriptGennaio2021';
 import QuizScriptFebbraio from './components/quiz/QuizScriptFebbraio';
 import StudyMaterials from './components/study/StudyMaterials';
+import QuizFebbraio2026Turno2 from './components/exams/QuizFebbraio2026Turno2';
 import { categories as categoriesData } from './data/categories';
 
 const App = () => {
@@ -94,6 +95,8 @@ const App = () => {
                 return <QuizScriptFebbraio />;
             case 'StudyMaterials':
                 return <StudyMaterials />;
+            case 'QuizFebbraio2026Turno2':
+                return <QuizFebbraio2026Turno2 />;
             default:
                 return null;
         }

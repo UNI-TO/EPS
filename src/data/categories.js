@@ -182,6 +182,15 @@ export const categories = [
                 description: '5 domande - Moneta/Probabilità, Teoria Varianza, allenamento/Regressione, Esponenziale, consumo/Proporzioni',
                 component: 'QuizGennaio2026Turno2',
                 topics: ['Probabilità Classica', 'Teoria Varianza', 'Regressione Lineare', 'Esponenziale Memoryless', 'Test Proporzioni']
+            },
+            {
+                id: 'esame-febbraio-2026-turno2',
+                name: 'Esame 6 Febbraio 2026 - Turno 2 🆕⭐',
+                description: '4 domande - Corsi/Bayes, Parcheggi/Test Proporzioni, Esponenziale Memoryless, Teoria IC',
+                component: 'QuizFebbraio2026Turno2',
+                topics: ['Probabilità Totali', 'Bayes', 'Test Proporzioni', 'Esponenziale', 'Teoria IC'],
+                rScript: '/input/rData/parcheggi.RData',
+                rScriptName: 'parcheggi.RData'
             }
         ]
     },
